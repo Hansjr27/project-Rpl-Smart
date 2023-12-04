@@ -1,0 +1,178 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* bagian header */
+header {
+  background-color: cadetblue;
+  height: 90px;
+  width: 100%;
+}
+nav {
+  position: fixed;
+  z-index: 99;
+  background-color: cadetblue;
+  height: 90px;
+  width: 100%;
+}
+
+
+.li-header {
+  list-style: none;
+  float: left;
+  padding: 12px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  color: white;
+  /* padding: top right buttom left; */
+}
+
+.header-menu {
+  float: left;
+  padding: 20px 33px;
+}
+
+/* bagian main */
+.main {
+  height: 1225px;
+  padding-left: 50px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.h3-1 {
+  margin-top: 70px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 27px;
+}
+
+.h3-2 {
+  margin-top: 220px;
+  border-bottom: 1px solid grey;
+  /* border: solid, dasheb, dotad */
+}
+
+.titik {
+  text-decoration: none;
+  color: red;
+}
+
+.main-cuy {
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 100px;
+}
+
+/* bagian img */
+img {
+  width: 100px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 20px;
+}
+
+/* bagian formulir */
+.email {
+  text-transform: capitalize;
+}
+
+#email {
+  width: 260px;
+  height: 35px;
+  border-color: gray;
+}
+
+textarea {
+  width: 260px;
+  height: 60px;
+  border-color: gray;
+}
+
+.pesan {
+  text-transform: capitalize;
+}
+
+.bidang {
+  text-transform: capitalize;
+}
+
+.submit {
+  text-align: center;
+  width: 230px;
+  height: 35px;
+  background-color: #d8d9da;
+  color: gray;
+  border: none;
+}
+.submit:hover {
+  background-color: rgb(112, 108, 108);
+  color: #d8d9da;
+}
+
+/* bagian footer */
+.footer {
+  background-color: #053b50;
+  height: 226px;
+  color: white;
+}
+
+.footer-logo {
+  float: left;
+  padding: 20px 40px;
+}
+
+.footer-menu {
+  float: right;
+  padding: 20px 33px;
+}
+
+.li-footer {
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/*  */
+.path-1 {
+  animation: pathAnim-1 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pathAnim-1 {
+  0% {
+    d: path("M 0,600 C 0,600 0,400 0,400 C 69.63636363636365,418.3349282296651 139.2727272727273,436.66985645933016 236,430 C 332.7272727272727,423.33014354066984 456.5454545454545,391.65550239234443 558,391 C 659.4545454545455,390.34449760765557 738.5454545454545,420.70813397129194 849,411 C 959.4545454545455,401.29186602870806 1101.2727272727273,351.511961722488 1205,343 C 1308.7272727272727,334.488038277512 1374.3636363636365,367.244019138756 1440,400 C 1440,400 1440,600 1440,600 Z");
+  }
+
+  25% {
+    d: path("M 0,600 C 0,600 0,400 0,400 C 102.23923444976077,400.76555023923447 204.47846889952154,401.5311004784689 286,412 C 367.52153110047846,422.4688995215311 428.32535885167465,442.64114832535887 523,419 C 617.6746411483253,395.35885167464113 746.2200956937799,327.9043062200957 855,339 C 963.7799043062201,350.0956937799043 1052.7942583732058,439.74162679425837 1147,463 C 1241.2057416267942,486.25837320574163 1340.6028708133972,443.12918660287085 1440,400 C 1440,400 1440,600 1440,600 Z");
+  }
+
+  50% {
+    d: path("M 0,600 C 0,600 0,400 0,400 C 108.29665071770336,428.6985645933014 216.59330143540672,457.39712918660285 309,466 C 401.4066985645933,474.60287081339715 477.92344497607667,463.11004784689 575,427 C 672.0765550239233,390.88995215311 789.7129186602871,330.1626794258373 898,339 C 1006.2870813397129,347.8373205741627 1105.224880382775,426.2392344497608 1194,448 C 1282.775119617225,469.7607655502392 1361.3875598086124,434.88038277511964 1440,400 C 1440,400 1440,600 1440,600 Z");
+  }
+
+  75% {
+    d: path("M 0,600 C 0,600 0,400 0,400 C 63.45454545454547,393.6459330143541 126.90909090909093,387.29186602870817 237,400 C 347.09090909090907,412.70813397129183 503.81818181818176,444.47846889952154 623,449 C 742.1818181818182,453.52153110047846 823.8181818181818,430.7942583732057 897,420 C 970.1818181818182,409.2057416267943 1034.9090909090908,410.3444976076555 1124,409 C 1213.0909090909092,407.6555023923445 1326.5454545454545,403.82775119617224 1440,400 C 1440,400 1440,600 1440,600 Z");
+  }
+
+  100% {
+    d: path("M 0,600 C 0,600 0,400 0,400 C 69.63636363636365,418.3349282296651 139.2727272727273,436.66985645933016 236,430 C 332.7272727272727,423.33014354066984 456.5454545454545,391.65550239234443 558,391 C 659.4545454545455,390.34449760765557 738.5454545454545,420.70813397129194 849,411 C 959.4545454545455,401.29186602870806 1101.2727272727273,351.511961722488 1205,343 C 1308.7272727272727,334.488038277512 1374.3636363636365,367.244019138756 1440,400 C 1440,400 1440,600 1440,600 Z");
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Progate</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <div class="header-logo">RPLSMART</div>
+      <div class="header-menu">
+        <ul>
+          <li class="li-header"><a href="#">Tentang</a></li>
+          <li class="li-header"><a href="#pelajaran">Pelajaran</a></li>
+          <li class="li-header"><a href="#hubungiKami">Hubungi Kami</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- main -->
+  <div data-aos="fade-right" class="main">
+    <!-- Welcome cuy -->
+    <section id="tentang"></section>
+    <div class="main-cuy">Welcome To <br />
+      RPLSMART<span class="titik">.</span>
+    </div>
+    <!-- judul 1 -->
+    <h1>Ayo belajar coding</h1>
+    <!-- judul kecil -->
+    <section id="pelajaran">
+      <h3 class="h3-1">Pelajaran</h3>
+      <!-- bagian img -->
+      <div class="contents">
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg" />
+          <p>HTML & CSS</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg" />
+          <p>PHP</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg" />
+          <p>Ruby</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg" />
+          <p>Swift</p>
+        </div>
+      </div>
+    </section>
+    <!-- judul kecil lagi -->
+    <section id="hubungiKami">
+      <h3 class="h3-2">Hubungi Kami</h3>
+      <!-- formulir cuy -->
+      <form action="">
+        <div class="email">
+          <h5>Email (wajib diisi)</h5>
+          <input id="email" type="text" />
+        </div>
+        <br />
+        <div class="pesan">
+          <h5>Pesan (wajib diisi)</h5>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br />
+        <div class="bidang">
+          <h5>*Bidang Wajib Diisi</h5>
+          <input class="submit" type="submit" value="Kirim" />
+        </div>
+      </form>
+  </div>
+  </section>
+  <!-- footer -->
+  <div class="footer">
+    <div class="footer-logo">RPLSMART</div>
+    <div class="footer-menu">
+      <ul>
+        <li class="li-footer"><a href="#">Tentang</a></li>
+        <li class="li-footer"><a href="#">Pelajaran</a></li>
+        <li class="li-footer"><a href="#">Hubungi Kami</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- aos js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- instalize aos js -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
